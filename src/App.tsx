@@ -13,9 +13,10 @@ const rotas = createBrowserRouter([
       <>
         <Banner />
         <ProductsList title="Promoções" background="gray" />
+        <ProductsList title="Em breve" background="black" />
       </>
-    )
-  }
+    ),
+  },
 ])
 
 function App() {
